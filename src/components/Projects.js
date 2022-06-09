@@ -1,5 +1,6 @@
 import project1 from './Images/Projects/calc.png';
 import project2 from './Images/Projects/rgb.png';
+import project3 from './Images/Projects/pathunkn.png';
 
 import { IconContext } from 'react-icons';
 import { AiFillHtml5 } from 'react-icons/ai';
@@ -83,6 +84,39 @@ const Projects = () => {
             />
           </div>
         </div>
+
+        <div className="project-wrapper">
+          <div className="project-description">
+            <h1>Path Unknown</h1>
+            <FaReact className="project-icons" style={{ color: '#066BF7 ',fontSize: '2rem', }} />
+            <IoLogoJavascript className="project-icons" style={{color: '#000',backgroundColor: '#EDD62E ',fontSize: '2rem',}}/>
+            <DiRuby className="project-icons" style={{ color: 'red',fontSize: '2rem' }} />
+            <SiRubyonrails className="project-icons" style={{ color: 'red',fontSize: '2rem' }}/>
+            <AiFillHtml5 className="project-icons" style={{ color: '#f55a42',fontSize: '2rem', }} />
+            <IoLogoCss3 className="project-icons" style={{ color: '#066BF7',fontSize: '2rem', }} />
+            <p></p>
+            <div className="btn-wrapper">
+              <a
+                target="_blank"
+                rel="noopener"
+                className="project-btn-a"
+                href="https://thawing-savannah-35988.herokuapp.com/">
+                <button className="project-btn">Live</button>
+              </a>
+              <a
+                target="_blank"
+                rel="noopener"
+                className="project-btn-a"
+                href="https://github.com/The-Three-Nomads/the-path-Unknown">
+                <button className="project-btn">Github</button>
+              </a>
+            </div>
+          </div>
+          <div className="project-img-cnt">
+            <img className="project-img" src={project3} alt="project 1 image" />
+          </div>
+        </div>
+
         </div>
       </div>
     </section>
