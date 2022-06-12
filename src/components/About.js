@@ -6,11 +6,16 @@ import { IoLogoJavascript } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
 import { FaGitAlt } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import { SiRubyonrails } from 'react-icons/si'
-import { DiRuby } from 'react-icons/di'
-import { SiPostman } from 'react-icons/si'
-import { SiPostgresql } from 'react-icons/si'
+import { SiRubyonrails } from 'react-icons/si';
+import { DiRuby } from 'react-icons/di';
+import { SiPostman } from 'react-icons/si';
+import { SiPostgresql } from 'react-icons/si';
+import Figma from './/Images/figma.png';
+import Carousel from 'react-bootstrap/Carousel';
 
+
+import PathUnkn from './Images/Projects/pathunkn.png';
+import WireFrame from './Images/Projects/wireframe.png';
 
 const About = () => {
   return (
@@ -48,6 +53,7 @@ const About = () => {
               <SiPostgresql className="skill-icons" style={{ color: 'teal' }}/>
               <FaGitAlt className="skill-icons" style={{ color: '#f55a42' }} />
               <FaGithub className="skill-icons" style={{ color: '#000' }} />
+              <img src={Figma} width="90px" className="skill-icons" />
             </IconContext.Provider>
           </div>
         </div>
