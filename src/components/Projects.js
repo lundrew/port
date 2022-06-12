@@ -13,13 +13,12 @@ import { SiRubyonrails } from 'react-icons/si'
 import { DiRuby } from 'react-icons/di'
 import { SiPostman } from 'react-icons/si'
 import { SiPostgresql } from 'react-icons/si'
+import PathUnkn from './Images/Projects/pathunkn.png'
 
 const Projects = () => {
   return (
     <section id="projects" className="project-section">
       <h1 className="project-section-h1">Projects</h1>
-
-
       <div className="scroll">
       <div className="projects-cnt">
         <div className="project-wrapper">
@@ -84,7 +83,6 @@ const Projects = () => {
             />
           </div>
         </div>
-
         <div className="project-wrapper">
           <div className="project-description">
             <h1>Path Unknown</h1>
@@ -113,10 +111,9 @@ const Projects = () => {
             </div>
           </div>
           <div className="project-img-cnt">
-            <img className="project-img" src={project3} alt="project 1 image" />
+            <img className="project-img" src={project3} alt="project 1 image" height="" />
           </div>
         </div>
-
         </div>
       </div>
     </section>
