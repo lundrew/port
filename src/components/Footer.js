@@ -5,7 +5,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { IconContext } from 'react-icons';
 import emailjs from '@emailjs/browser';
 import React, { useRef, form } from 'react';
-
+import { toast, Toaster } from 'react-hot-toast';
 
 
 const Footer = () => {
@@ -15,7 +15,8 @@ const Footer = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
-        alert("Your message was delivered!");
+        toast.success("Your message was delivered!");
+        
 
  
 
@@ -30,6 +31,7 @@ const Footer = () => {
   return (
     <IconContext.Provider value={{ className: 'media-icons  ' }}>
     <div>
+    <div><Toaster/></div>
 
     <div className="form-div">
     <div className='form'>
