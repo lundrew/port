@@ -1,8 +1,8 @@
-import '../styles.css';
-import React, { useState } from 'react';
-import { MdClose } from 'react-icons/md';
-import { FiMenu } from 'react-icons/fi';
-import { RiUserSmileLine } from 'react-icons/ri'
+import "../styles.css";
+import React, { useState } from "react";
+import { MdClose } from "react-icons/md";
+import { FiMenu } from "react-icons/fi";
+import { RiUserSmileLine } from "react-icons/ri";
 
 const Nav = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -13,16 +13,19 @@ const Nav = () => {
 
   return (
     <header>
-      <p className="logo"><RiUserSmileLine size={50} className="smile-icon"/>a.luna</p>
+      <p className="logo">
+        <RiUserSmileLine size={50} className="smile-icon" />
+        a.luna
+      </p>
       <nav>
         <div className="hamburger " onClick={handleToggle}>
           {navbarOpen ? (
-            <MdClose style={{ color: '#000', width: '40px', height: '40px' }} />
+            <MdClose style={{ color: "#000", width: "40px", height: "40px" }} />
           ) : (
-            <FiMenu style={{ color: '#000', width: '40px', height: '40px' }} />
+            <FiMenu style={{ color: "#000", width: "40px", height: "40px" }} />
           )}
         </div>
-        <ul className={`menuNav nav-ul ${navbarOpen ? ' showMenu' : ''}`}>
+        <ul className={`menuNav nav-ul ${navbarOpen ? " showMenu" : ""}`}>
           <li className="nav-li">
             <a className="navbar-a" href="#home">
               Home
@@ -38,9 +41,7 @@ const Nav = () => {
               Projects
             </a>
           </li>
-          <li className="nav-li">
-
-          </li>
+          <li className="nav-li"></li>
         </ul>
       </nav>
     </header>
