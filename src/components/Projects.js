@@ -1,6 +1,6 @@
 import project1 from "./Images/Projects/calc.png";
 import project2 from "./Images/Projects/rgb.png";
-import project3 from "./Images/Projects/pathunkn.png";
+import project3 from "./Images/Projects/bonfireio.png";
 import project4 from "./Images/Projects/devjourn.png";
 
 import { IconContext } from "react-icons";
@@ -63,6 +63,14 @@ const Projects = () => {
                 >
                   <button className="project-btn">Live</button>
                 </a>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  className="project-btn-a"
+                  href="https://github.com/lundrew/codejournal"
+                >
+                  <button className="project-btn">Github</button>
+                </a>
               </div>
             </div>
             <div className="project-img-cnt">
@@ -74,6 +82,52 @@ const Projects = () => {
             </div>
           </div>
           <div className="project-wrapper">
+            <div className="project-description">
+              <h1>Chat App &#40;Bonfire.io&#41;</h1>
+              <FaReact
+                className="project-icons"
+                style={{ color: "#066BF7 ", fontSize: "2rem" }}
+              />
+              <SiRubyonrails
+                className="project-icons"
+                style={{ color: "red ", fontSize: "2rem" }}
+              />
+              <IoLogoJavascript
+                className="project-icons"
+                style={{
+                  color: "#000",
+                  backgroundColor: "#EDD62E ",
+                  fontSize: "2rem",
+                }}
+              />
+              <AiFillHtml5
+                className="project-icons"
+                style={{ color: "#f55a42", fontSize: "2rem" }}
+              />
+              <IoLogoCss3
+                className="project-icons"
+                style={{ color: "#066BF7", fontSize: "2rem" }}
+              />
+              <br></br>
+              <br></br>
+              <div className="btn-wrapper">
+                <a target="_blank" rel="noopener" className="project-btn-a">
+                  <button className="project-btn">Work in</button>
+                </a>
+                <a target="_blank" rel="noopener" className="project-btn-a">
+                  <button className="project-btn">Progress</button>
+                </a>
+              </div>
+            </div>
+            <div className="project-img-cnt">
+              <img
+                className="project-img"
+                src={project3}
+                alt="project 1 image"
+              />
+            </div>
+          </div>
+          <div className="project-wrapper row-reverse">
             <div className="project-description">
               <h1>Calculator</h1>
               <FaReact
@@ -125,7 +179,7 @@ const Projects = () => {
               />
             </div>
           </div>
-          <div className="project-wrapper row-reverse">
+          <div className="project-wrapper">
             <div className="project-description">
               <h1>RGB Generator</h1>
               <FaReact
@@ -174,67 +228,6 @@ const Projects = () => {
                 className="project-img "
                 src={project2}
                 alt="project 2 image"
-              />
-            </div>
-          </div>
-          <div className="project-wrapper">
-            <div className="project-description">
-              <h1>Path Unknown</h1>
-              <FaReact
-                className="project-icons"
-                style={{ color: "#066BF7 ", fontSize: "2rem" }}
-              />
-              <IoLogoJavascript
-                className="project-icons"
-                style={{
-                  color: "#000",
-                  backgroundColor: "#EDD62E ",
-                  fontSize: "2rem",
-                }}
-              />
-              <DiRuby
-                className="project-icons"
-                style={{ color: "red", fontSize: "2rem" }}
-              />
-              <SiRubyonrails
-                className="project-icons"
-                style={{ color: "red", fontSize: "2rem" }}
-              />
-              <AiFillHtml5
-                className="project-icons"
-                style={{ color: "#f55a42", fontSize: "2rem" }}
-              />
-              <IoLogoCss3
-                className="project-icons"
-                style={{ color: "#066BF7", fontSize: "2rem" }}
-              />
-              <br></br>
-              <br></br>{" "}
-              <div className="btn-wrapper">
-                <a
-                  target="_blank"
-                  rel="noopener"
-                  className="project-btn-a"
-                  href="https://thawing-savannah-35988.herokuapp.com/"
-                >
-                  <button className="project-btn">Live</button>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener"
-                  className="project-btn-a"
-                  href="https://github.com/The-Three-Nomads/the-path-Unknown"
-                >
-                  <button className="project-btn">Github</button>
-                </a>
-              </div>
-            </div>
-            <div className="project-img-cnt">
-              <img
-                className="project-img"
-                src={project3}
-                alt="project 1 image"
-                height=""
               />
             </div>
           </div>
