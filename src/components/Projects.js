@@ -112,10 +112,15 @@ const Projects = () => {
               <br></br>
               <div className="btn-wrapper">
                 <a target="_blank" rel="noopener" className="project-btn-a">
-                  <button className="project-btn">Work in</button>
+                  <button className="project-btn">🚧Building🚧</button>
                 </a>
-                <a target="_blank" rel="noopener" className="project-btn-a">
-                  <button className="project-btn">Progress</button>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  className="project-btn-a"
+                  href="https://github.com/lundrew/bonfire-chat"
+                >
+                  <button className="project-btn">Github</button>
                 </a>
               </div>
             </div>
