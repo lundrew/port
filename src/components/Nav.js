@@ -14,18 +14,18 @@ const Nav = () => {
   return (
     <header>
       <p className="logo">
-        <RiUserSmileLine size={50} className="smile-icon" />
+        <RiUserSmileLine size={100} className="smile-icon" />
         a.luna
       </p>
       <nav>
-        <div className="hamburger " onClick={handleToggle}>
+        {/* <div className="hamburger " onClick={handleToggle}>
           {navbarOpen ? (
             <MdClose style={{ color: "#000", width: "40px", height: "40px" }} />
           ) : (
             <FiMenu style={{ color: "#000", width: "40px", height: "40px" }} />
           )}
-        </div>
-        <ul className={`menuNav nav-ul ${navbarOpen ? " showMenu" : ""}`}>
+        </div> */}
+        {/* <ul className={`menuNav nav-ul ${navbarOpen ? " showMenu" : ""}`}>
           <li className="nav-li">
             <a className="navbar-a" href="#home">
               Home
@@ -42,7 +42,7 @@ const Nav = () => {
             </a>
           </li>
           <li className="nav-li"></li>
-        </ul>
+        </ul> */}
       </nav>
     </header>
   );

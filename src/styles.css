@@ -245,11 +245,13 @@ nav {
 }
 
 .skills-cnt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 40vh;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  background-color: white;
+  box-shadow: 0px 0px 4px 12px #fff;
 }
 
 .skill-items-cnt {
@@ -273,6 +275,14 @@ nav {
 }
 
 .skill-icons {
+  padding: 0px;
+  transition: transform 0.8s; /* Animation */
+}
+
+.skill-icons-ruby {
+  /* position: absolute;
+  left: 200px;
+  top: 440px; */
   padding: 0px;
   transition: transform 0.8s; /* Animation */
 }
@@ -622,6 +632,25 @@ footer {
 
 .submit:active {
   background-color: #06b;
+}
+
+.github {
+  position: absolute;
+  left: 365px;
+  top: 169px;
+  transform: rotate(20deg);
+}
+
+.linkedin {
+  position: absolute;
+  left: 604px;
+  top: 329px;
+}
+
+.email {
+  position: absolute;
+  left: 596px;
+  top: 197px;
 }
 
 @media (min-width: 1600px) {
