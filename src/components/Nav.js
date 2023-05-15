@@ -13,9 +13,10 @@ const Nav = () => {
 
   return (
     <header>
+      <p className="job-role">full-stack developer</p>
       <p className="logo">
         <RiUserSmileLine size={100} className="smile-icon" />
-        a.luna
+        andrew luna
       </p>
       <nav>
         {/* <div className="hamburger " onClick={handleToggle}>

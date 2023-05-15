@@ -32,11 +32,28 @@ nav {
 
 .logo {
   position: absolute;
-  left: 20px;
+  left: -10px;
   height: 30px;
   z-index: 40;
   margin-left: 6rem;
-  font-size: 35px;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+}
+
+.job-role {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 4px;
+  line-height: 10px;
+  padding: 4px;
+  color: rgb(0, 0, 0);
+  left: 188px;
+  top: 138px;
+  z-index: 40;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  opacity: 40%;
+  text-transform: uppercase;
 }
 
 .smile-icon {
@@ -146,10 +163,14 @@ nav {
   margin-right: 1rem;
   font-size: 2rem;
   color: #000;
+  opacity: 70%;
+  transition: 1s;
 }
 
 .media-icons:hover {
-  color: rgb(8, 67, 67);
+  /* color: rgb(8, 67, 67); */
+  opacity: 100%;
+  transition: 1s;
 }
 
 .flex-icons {
@@ -1093,8 +1114,8 @@ footer {
   align-items: center;
   position: absolute;
   padding: 20px;
-  left: 200px;
-  right: 200px;
+  left: 500px;
+  right: 500px;
   top: 10px;
   background-color: transparent;
   border: none;
