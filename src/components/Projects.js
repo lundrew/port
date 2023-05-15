@@ -19,7 +19,7 @@ import PathUnkn from "./Images/Projects/pathunkn.png";
 const Projects = () => {
   return (
     <section id="projects" className="project-section">
-      <h1 className="project-section-h1">Projects</h1>
+      {/* <h1 className="project-section-h1">Projects</h1> */}
       <div className="scroll">
         <div className="projects-cnt">
           <div className="project-wrapper row-reverse">

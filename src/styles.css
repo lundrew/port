@@ -108,7 +108,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 90vh;
+  height: 80vh;
   padding: 4rem;
 }
 
@@ -279,14 +279,6 @@ nav {
   transition: transform 0.8s; /* Animation */
 }
 
-.skill-icons-ruby {
-  /* position: absolute;
-  left: 200px;
-  top: 440px; */
-  padding: 0px;
-  transition: transform 0.8s; /* Animation */
-}
-
 .skill-icons:hover {
   transform: scale(1.2);
 }
@@ -294,8 +286,14 @@ nav {
 /* Projects Section */
 
 .project-section {
-  padding: 1em 2em;
-  background-color: whitesmoke;
+  /* padding: 1em 2em; */
+  z-index: 200;
+  background-color: transparent;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  top: 70px;
+  border-radius: 3px;
 }
 
 .project-section-h1 {
@@ -380,7 +378,7 @@ nav {
 }
 
 .project-btn:hover {
-  background-color: whitesmoke;
+  background-color: rgb(49, 176, 195);
   color: #000;
   cursor: pointer;
   opacity: 0.9s;
@@ -412,13 +410,14 @@ nav {
 
 .scroll {
   padding: 4px;
-  background-color: #fff;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9));
+  box-shadow: 0px 0px 200px 200px rgb(0, 0, 0, 0.3);
   width: auto;
   height: 30rem;
   overflow-x: hidden;
   overflow-y: auto;
   padding: 4rem;
-  border-radius: 3rem;
+  border-radius: 1rem;
 }
 
 #project-info {
@@ -639,18 +638,64 @@ footer {
   left: 365px;
   top: 169px;
   transform: rotate(20deg);
+  transition: 2s;
+  transition: 1s;
+}
+
+.github:hover {
+  transform: scale(1.8) rotate(0deg);
+  transition: 1s;
+  left: 352px;
+  top: 152px;
 }
 
 .linkedin {
   position: absolute;
   left: 604px;
   top: 329px;
+  transition: 2s;
+  transition: 1s;
+}
+
+.linkedin:hover {
+  transform: scale(1.8) rotate(0deg);
+  transition: 1s;
+  left: 610px;
+  top: 318px;
 }
 
 .email {
   position: absolute;
   left: 596px;
   top: 197px;
+  transition: 2s;
+  transition: 1s;
+}
+
+.email:hover {
+  transform: scale(1.8) rotate(0deg);
+  transition: 1s;
+  left: 602px;
+  top: 190px;
+}
+
+.devjournal {
+  position: absolute;
+  left: 98px;
+  top: 304px;
+  transition: 2s;
+  transition: 1s;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  color: #000;
+  font-family: "Lato", sans-serif;
+}
+
+.devjournal:hover {
+  transform: scale(1.3) rotate(0deg);
+  transition: 1s;
+  left: 96px;
+  top: 300px;
 }
 
 @media (min-width: 1600px) {
@@ -1040,4 +1085,44 @@ footer {
     justify-content: center;
     margin-bottom: 3rem;
   }
+}
+
+.btn-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding: 20px;
+  left: 200px;
+  right: 200px;
+  top: 10px;
+  background-color: transparent;
+  border: none;
+  font-family: "Lato", sans-serif;
+  transition: 1s;
+  opacity: 40%;
+  cursor: pointer;
+}
+
+.btn-projects-close {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 200px;
+  right: 200px;
+  top: 30px;
+  background-color: transparent;
+  border: none;
+  font-family: "Lato", sans-serif;
+  transition: 1s;
+  opacity: 40%;
+  cursor: pointer;
+}
+
+.btn-projects:hover {
+  position: absolute;
+  top: 20px;
+  transition: 1s;
+  opacity: 80%;
 }

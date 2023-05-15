@@ -40,6 +40,14 @@ const Hero = () => {
             >
               <HiOutlineMail />
             </a>
+            {/* <a
+              className="devjournal"
+              target="_blank"
+              rel="noopener"
+              href="https://www.devjou.com/"
+            >
+              &lt;Dev Journal&#47;&gt;
+            </a> */}
           </div>
         </div>
       </section>
