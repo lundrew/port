@@ -431,7 +431,7 @@ nav {
 
 .scroll {
   padding: 4px;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9));
+  background-color: #fcfcfcee;
   box-shadow: 0px 0px 200px 200px rgb(0, 0, 0, 0.3);
   width: auto;
   height: 30rem;
