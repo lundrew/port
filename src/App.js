@@ -31,6 +31,7 @@ function App() {
 
   return (
     <div
+      className="app-body"
       style={{
         position: "absolute",
         backgroundImage: `url(${BGImage})`,
