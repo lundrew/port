@@ -38,7 +38,7 @@ const Footer = () => {
           <Toaster />
         </div>
 
-        <div className="form-div">
+        <div className="form-div" id="contact">
           <div className="form">
             <div className="title">Let's Work Together!</div>
             <form ref={form} onSubmit={sendEmail}>
@@ -50,6 +50,7 @@ const Footer = () => {
                   placeholder="Name"
                   type="text"
                   name="from_name"
+                  style={{ padding: "10px" }}
                 />
               </div>
               <div className="input-container ic2">
@@ -59,6 +60,7 @@ const Footer = () => {
                   placeholder="Email Address"
                   type="email"
                   name="reply_to"
+                  style={{ padding: "10px" }}
                 />
               </div>
               <div className="input-container ic2">
@@ -68,6 +70,7 @@ const Footer = () => {
                   placeholder="Subject"
                   type="text"
                   name="subject"
+                  style={{ padding: "10px" }}
                 />
               </div>
               <div className="message-container">
@@ -76,6 +79,7 @@ const Footer = () => {
                   required
                   placeholder="Message"
                   name="message"
+                  style={{ padding: "10px" }}
                 />
               </div>
               <div className="row pt-5 mx-auto">

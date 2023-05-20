@@ -19,7 +19,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 3rem;
+  padding: 1rem;
   height: 60px;
   width: 100%;
   background-color: none;
@@ -32,11 +32,12 @@ nav {
 
 .logo {
   position: absolute;
-  left: 20px;
+  left: 0px;
   height: 30px;
   z-index: 40;
-  margin-left: 6rem;
-  font-size: 35px;
+  margin-left: 2rem;
+  font-size: 22px;
+  font-family: "Lato";
 }
 
 .smile-icon {
@@ -46,18 +47,19 @@ nav {
 .nav-ul {
   display: flex;
   align-items: center;
-  margin-right: 2rem;
+  margin-right: 0.75rem;
 }
 
 .nav-li {
-  padding: 1rem;
   list-style: none;
   height: 20px;
+  margin-left: 1rem;
 }
 
 .navbar-a {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 18px;
+  font-family: "Lato";
   letter-spacing: 1px;
   color: #000;
   font-weight: 400;
@@ -70,13 +72,6 @@ nav {
   cursor: pointer;
   opacity: 0.3;
 }
-
-/* opacity: 1;
-    transition: 0.9s;
-  }
- 
-    opacity: 0.9s;
-  } */
 
 .hamburger {
   display: none;
@@ -98,17 +93,13 @@ nav {
   text-transform: uppercase;
 }
 
-/* .contact-btn-nav:hover {
-    background-color: #c471ed;
-    cursor: pointer;
-  } */
 /* Hero section */
 
 .hero--cnt {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 90vh;
+  height: 74vh;
   padding: 4rem;
 }
 
@@ -119,10 +110,22 @@ nav {
   padding: 6rem 0 0 2rem;
 }
 
-.name {
+.intro-header {
+  font-size: 3rem;
+  /* width: 30rem; */
+  padding-bottom: 1rem;
+}
+
+.intro {
+  /* width: 20rem; */
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 16px;
   color: #4e4b66;
+}
+
+.intro-div {
+  padding-bottom: 2rem;
+  width: 356px;
 }
 
 .job-title {
@@ -160,12 +163,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem;
-  background-color: whitesmoke;
-}
-
-.about-img-cnt {
-  margin-right: 6rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .about-photo {
@@ -205,7 +206,7 @@ nav {
   height: 3rem;
   width: 16rem;
   border: none;
-  border-radius: 25px;
+  border-radius: 4px;
   background-color: #000;
   display: flex;
   justify-content: center;
@@ -221,7 +222,7 @@ nav {
 }
 
 .contact-btn-about:hover {
-  background-color: whitesmoke;
+  background-color: #fff;
   cursor: pointer;
   color: #000;
   opacity: 0.9s;
@@ -232,8 +233,9 @@ nav {
 }
 
 /* Skills */
+
 .skills-section {
-  background-color: whitesmoke;
+  margin-top: 5rem;
 }
 
 .skills-section h1 {
@@ -247,9 +249,8 @@ nav {
 .skills-cnt {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 40vh;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 .skill-items-cnt {
@@ -258,6 +259,13 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   row-gap: 12px;
+}
+
+.skills-text {
+  font-family: "lato";
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 1rem;
 }
 
 .skill-items {
@@ -274,7 +282,9 @@ nav {
 
 .skill-icons {
   padding: 0px;
-  transition: transform 0.8s; /* Animation */
+  width: 2rem;
+  height: 2rem;
+  transition: transform 0.8s;
 }
 
 .skill-icons:hover {
@@ -285,7 +295,7 @@ nav {
 
 .project-section {
   padding: 1em 2em;
-  background-color: whitesmoke;
+  margin-bottom: 14rem;
 }
 
 .project-section-h1 {
@@ -370,7 +380,7 @@ nav {
 }
 
 .project-btn:hover {
-  background-color: whitesmoke;
+  background-color: #fff;
   color: #000;
   cursor: pointer;
   opacity: 0.9s;
@@ -391,7 +401,7 @@ nav {
 .project-icons {
   margin-top: 1rem;
   padding: 0px;
-  transition: transform 0.8s; /* Animation */
+  transition: transform 0.8s;
   margin-right: 2rem;
   margin-bottom: -1rem;
 }
@@ -424,7 +434,6 @@ nav {
 /* Footer Styles   */
 footer {
   height: 200px;
-  background-color: whitesmoke;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -514,6 +523,10 @@ footer {
   height: 30px;
   position: relative;
   width: 100%;
+}
+
+.input:focus {
+  padding-left: 2rem;
 }
 
 .message-container {
@@ -607,7 +620,7 @@ footer {
 
 .submit {
   background-color: #08d;
-  border-radius: 12px;
+  border-radius: 4px;
   border: 0;
   box-sizing: border-box;
   color: #eee;
@@ -615,9 +628,15 @@ footer {
   font-size: 18px;
   height: 50px;
   margin-top: 38px;
-  /* // outline: 0; */
   text-align: center;
   width: 100%;
+  transition: 1s;
+}
+
+.submit:hover {
+  background-color: #06b;
+  color: #eeeeeed1;
+  transition: 1s;
 }
 
 .submit:active {
@@ -635,6 +654,10 @@ footer {
   }
 }
 @media (max-width: 960px) {
+  .hero-img {
+    padding-top: 16rem;
+    height: 600px;
+  }
   /* Hamburger Menu */
   .nav-ul {
     display: flex;
@@ -695,7 +718,7 @@ footer {
     text-align: center;
   }
 
-  .name {
+  .intro {
     font-size: 1.5rem;
   }
 
@@ -752,8 +775,8 @@ footer {
   }
 
   .hero-img {
-    height: 330px;
-    margin-bottom: 3rem;
+    padding-top: 16rem;
+    height: 600px;
   }
 
   .about-photo {
@@ -773,6 +796,10 @@ footer {
   .footer-li {
     padding: 0.5rem;
   }
+
+  .logo {
+    z-index: -20;
+  }
 }
 
 @media (max-width: 520px) {
@@ -781,22 +808,22 @@ footer {
     margin-left: 0.5rem;
   }
 
-  .hero-text-cnt {
-    margin-top: 7rem;
+  .logo {
+    z-index: -20;
   }
 }
 
 /* Phone */
 @media (max-width: 480px) {
   /* Hero */
-  .name {
+  .intro {
     font-weight: 400;
     font-size: 2.5rem;
     text-align: center;
   }
 
   .logo {
-    z-index: -2;
+    z-index: -20;
   }
   .hamburger {
     margin-right: -2rem;
@@ -888,7 +915,6 @@ footer {
     font-size: 18px;
     height: 50px;
     margin-top: 20px;
-    /* // outline: 0; */
     text-align: center;
     width: 100%;
   }
@@ -975,7 +1001,7 @@ footer {
     margin-top: 65px;
   }
 
-  .name {
+  .intro {
     font-size: 1.5rem;
   }
 

@@ -2,7 +2,6 @@ import "../styles.css";
 import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
-import { RiUserSmileLine } from "react-icons/ri";
 
 const Nav = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -13,10 +12,7 @@ const Nav = () => {
 
   return (
     <header>
-      <p className="logo">
-        <RiUserSmileLine size={50} className="smile-icon" />
-        a.luna
-      </p>
+      <p className="logo">Andrew.dev</p>
       <nav>
         <div className="hamburger " onClick={handleToggle}>
           {navbarOpen ? (
@@ -41,7 +37,11 @@ const Nav = () => {
               Projects
             </a>
           </li>
-          <li className="nav-li"></li>
+          <li className="nav-li">
+            <a className="navbar-a" href="#contact">
+              Contact
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
