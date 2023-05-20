@@ -714,7 +714,7 @@ footer {
   /* Hero section */
   .hero--cnt {
     flex-direction: column-reverse;
-    padding-top: 4rem;
+    padding-top: 9rem;
     text-align: center;
   }
 
@@ -735,6 +735,7 @@ footer {
   .about--cnt {
     align-items: center;
     flex-direction: column;
+    padding: 0px;
   }
 
   .skill-items-cnt {
@@ -777,6 +778,7 @@ footer {
   .hero-img {
     padding-top: 16rem;
     height: 600px;
+    display: none;
   }
 
   .about-photo {
@@ -787,6 +789,7 @@ footer {
   .project-img {
     width: 300px;
     height: 100%;
+    display: none;
   }
 
   .footer-ul {
@@ -1018,6 +1021,7 @@ footer {
   .about--cnt {
     align-items: center;
     flex-direction: column;
+    padding: 0px;
   }
 
   /* Project section */
