@@ -163,8 +163,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  /* margin-top: 10rem;
+  margin-bottom: 10rem; */
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
@@ -195,6 +195,7 @@ nav {
 }
 
 .about-p {
+  text-align: center;
   line-height: 2.2rem;
   font-size: 1.4rem;
   word-spacing: 0.6px;
@@ -648,15 +649,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 6rem;
-    width: 50%;
     max-width: 900px;
   }
 }
 @media (max-width: 960px) {
   .hero-img {
-    padding-top: 16rem;
-    height: 600px;
+    /* padding-top: 16rem;
+    height: 600px; */
+    display: none;
   }
   /* Hamburger Menu */
   .nav-ul {
@@ -714,8 +714,9 @@ footer {
   /* Hero section */
   .hero--cnt {
     flex-direction: column-reverse;
-    padding-top: 9rem;
+    /* padding-top: 0rem; */
     text-align: center;
+    height: 60vh;
   }
 
   .intro {
@@ -735,7 +736,8 @@ footer {
   .about--cnt {
     align-items: center;
     flex-direction: column;
-    padding: 0px;
+    padding-right: 10rem;
+    padding-left: 10rem;
   }
 
   .skill-items-cnt {
@@ -753,7 +755,7 @@ footer {
 
   .project-section {
     flex-direction: column;
-    margin-top: 15rem;
+    /* margin-top: 15rem; */
   }
 
   .project-description h1 {
