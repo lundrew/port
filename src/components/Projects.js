@@ -3,18 +3,12 @@ import project2 from "./Images/Projects/rgb.png";
 import project3 from "./Images/Projects/bonfireio.png";
 import project4 from "./Images/Projects/devjourn.png";
 
-import { IconContext } from "react-icons";
 import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 import { SiRubyonrails } from "react-icons/si";
-import { DiRuby } from "react-icons/di";
-import { SiPostman } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
-import PathUnkn from "./Images/Projects/pathunkn.png";
 
 const Projects = () => {
   return (
@@ -55,17 +49,10 @@ const Projects = () => {
               <p id="project-info">Deployed through Netlify</p>
               <p id="project-info">Database services with Railway</p>
               <div className="btn-wrapper">
-                <a
-                  target="_blank"
-                  rel="noopener"
-                  className="project-btn-a"
-                  href="https://www.devjou.com/"
-                >
+                <a className="project-btn-a" href="https://www.devjou.com/">
                   <button className="project-btn">Live</button>
                 </a>
                 <a
-                  target="_blank"
-                  rel="noopener"
                   className="project-btn-a"
                   href="https://github.com/lundrew/codejournal"
                 >
@@ -74,11 +61,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-img-cnt">
-              <img
-                className="project-img "
-                src={project4}
-                alt="project 2 image"
-              />
+              <img className="project-img" alt="" src={project4} />
             </div>
           </div>
           <div className="project-wrapper">
@@ -111,12 +94,10 @@ const Projects = () => {
               <br></br>
               <br></br>
               <div className="btn-wrapper">
-                <a target="_blank" rel="noopener" className="project-btn-a">
+                <a className="project-btn-a">
                   <button className="project-btn">🚧Building🚧</button>
                 </a>
                 <a
-                  target="_blank"
-                  rel="noopener"
                   className="project-btn-a"
                   href="https://github.com/lundrew/bonfire-chat"
                 >
@@ -125,11 +106,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-img-cnt">
-              <img
-                className="project-img"
-                src={project3}
-                alt="project 1 image"
-              />
+              <img className="project-img" alt="" src={project3} />
             </div>
           </div>
           <div className="project-wrapper row-reverse">
@@ -159,16 +136,12 @@ const Projects = () => {
               <br></br>
               <div className="btn-wrapper">
                 <a
-                  target="_blank"
-                  rel="noopener"
                   className="project-btn-a"
                   href="https://lundrew.github.io/calc/"
                 >
                   <button className="project-btn">Live</button>
                 </a>
                 <a
-                  target="_blank"
-                  rel="noopener"
                   className="project-btn-a"
                   href="https://github.com/lundrew/calc"
                 >
@@ -177,11 +150,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-img-cnt">
-              <img
-                className="project-img"
-                src={project1}
-                alt="project 1 image"
-              />
+              <img className="project-img" alt="" src={project1} />
             </div>
           </div>
           <div className="project-wrapper">
@@ -211,16 +180,12 @@ const Projects = () => {
               <br></br>{" "}
               <div className="btn-wrapper">
                 <a
-                  target="_blank"
-                  rel="noopener"
                   className="project-btn-a"
                   href="https://lundrew.github.io/rgb/"
                 >
                   <button className="project-btn">Live</button>
                 </a>
                 <a
-                  target="_blank"
-                  rel="noopener"
                   className="project-btn-a"
                   href="https://github.com/lundrew/rgb"
                 >
@@ -229,11 +194,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-img-cnt">
-              <img
-                className="project-img "
-                src={project2}
-                alt="project 2 image"
-              />
+              <img className="project-img" alt="" src={project2} />
             </div>
           </div>
         </div>

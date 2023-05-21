@@ -25,14 +25,10 @@ const Hero = () => {
             </h1>
           </div>
           <div>
-            <a
-              target="_blank"
-              rel="noopener"
-              href="https://www.linkedin.com/in/andrewlunasd/"
-            >
+            <a href="https://www.linkedin.com/in/andrewlunasd/">
               <FaLinkedin />
             </a>
-            <a target="_blank" rel="noopener" href="https://github.com/lundrew">
+            <a href="https://github.com/lundrew">
               <FaGithub />
             </a>
             <a href="mailto:andrewmlun@gmail.com? subject=message from portfolio">
@@ -77,7 +73,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-img-cnt">
-          <img className="hero-img" src={Identity} alt="programmer" />
+          <img className="hero-img" alt="" src={Identity} />
         </div>
       </section>
     </IconContext.Provider>
