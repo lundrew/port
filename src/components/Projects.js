@@ -2,6 +2,7 @@ import project1 from "./Images/Projects/calc.png";
 import project2 from "./Images/Projects/rgb.png";
 import project3 from "./Images/Projects/bonfireio.png";
 import project4 from "./Images/Projects/devjourn.png";
+import project5 from "./Images/Projects/ecom.png";
 
 import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
@@ -9,6 +10,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiRubyonrails } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaCcStripe } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -19,6 +22,10 @@ const Projects = () => {
           <div className="project-wrapper row-reverse">
             <div className="project-description">
               <h1>Dev Journal</h1>
+              <div className="project-info-container">
+                <p id="project-info">Deployed through Netlify</p>
+                <p id="project-info">Database services with Railway</p>
+              </div>
               <FaReact
                 className="project-icons"
                 style={{ color: "#066BF7 ", fontSize: "2rem" }}
@@ -46,8 +53,8 @@ const Projects = () => {
                   fontSize: "2rem",
                 }}
               />
-              <p id="project-info">Deployed through Netlify</p>
-              <p id="project-info">Database services with Railway</p>
+              <br></br>
+              <br></br>
               <div className="btn-wrapper">
                 <a className="project-btn-a" href="https://www.devjou.com/">
                   <button className="project-btn">Live</button>
@@ -65,6 +72,58 @@ const Projects = () => {
             </div>
           </div>
           <div className="project-wrapper">
+            <div className="project-description">
+              <h1>Ecommerce App</h1>
+              <div className="project-info-container">
+                <p id="project-info">Deployed through Vercel</p>
+                <p id="project-info">Content Managed through Sanity</p>
+              </div>
+              <TbBrandNextjs
+                className="project-icons"
+                style={{ color: "#000000 ", fontSize: "2rem" }}
+              />
+              <IoLogoJavascript
+                className="project-icons"
+                style={{
+                  color: "#000",
+                  backgroundColor: "#EDD62E ",
+                  fontSize: "2rem",
+                }}
+              />
+              <AiFillHtml5
+                className="project-icons"
+                style={{ color: "#f55a42", fontSize: "2rem" }}
+              />
+              <IoLogoCss3
+                className="project-icons"
+                style={{ color: "#066BF7", fontSize: "2rem" }}
+              />
+              <FaCcStripe
+                className="project-icons"
+                style={{ color: "#2736C2 ", fontSize: "2rem" }}
+              />
+              <br></br>
+              <br></br>
+              <div className="btn-wrapper">
+                <a
+                  className="project-btn-a"
+                  href="https://ecommerce-hxxo4q11w-lundrew.vercel.app/"
+                >
+                  <button className="project-btn">Live</button>
+                </a>
+                <a
+                  className="project-btn-a"
+                  href="https://github.com/lundrew/ecommerce"
+                >
+                  <button className="project-btn">Github</button>
+                </a>
+              </div>
+            </div>
+            <div className="project-img-cnt">
+              <img className="project-img" alt="" src={project5} />
+            </div>
+          </div>
+          <div className="project-wrapper row-reverse">
             <div className="project-description">
               <h1>Chat App &#40;Bonfire.io&#41;</h1>
               <FaReact
@@ -109,7 +168,7 @@ const Projects = () => {
               <img className="project-img" alt="" src={project3} />
             </div>
           </div>
-          <div className="project-wrapper row-reverse">
+          <div className="project-wrapper">
             <div className="project-description">
               <h1>Calculator</h1>
               <FaReact
@@ -153,7 +212,7 @@ const Projects = () => {
               <img className="project-img" alt="" src={project1} />
             </div>
           </div>
-          <div className="project-wrapper">
+          <div className="project-wrapper row-reverse">
             <div className="project-description">
               <h1>RGB Generator</h1>
               <FaReact

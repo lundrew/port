@@ -422,10 +422,16 @@ nav {
   color: black;
   font-size: 10px;
   position: relative;
-  bottom: 45px;
-  margin-top: -20px;
+  bottom: 0px;
+  margin-top: -10px;
   margin-left: 5px;
+  margin-bottom: 30px;
   opacity: 40%;
+}
+
+.project-info-container {
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
 /* Footer Styles   */
