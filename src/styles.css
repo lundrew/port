@@ -715,7 +715,7 @@ footer {
   .hero--cnt {
     flex-direction: column-reverse;
     text-align: center;
-    height: 60vh;
+    height: 90vh;
   }
 
   .intro {
@@ -899,8 +899,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40vh;
-    padding-bottom: 50px;
+    height: 10vh;
   }
 
   .skill-icons {
@@ -1001,7 +1000,7 @@ footer {
     flex-direction: column-reverse;
     padding-top: 4rem;
     text-align: center;
-    margin-top: 65px;
+    height: 70vh;
   }
 
   .intro {
@@ -1021,7 +1020,7 @@ footer {
   .about--cnt {
     align-items: center;
     flex-direction: column;
-    padding: 0px;
+    padding-top: 10rem;
   }
 
   /* Project section */

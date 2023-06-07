@@ -12,6 +12,12 @@ import { FaReact } from "react-icons/fa";
 import { SiRubyonrails } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaCcStripe } from "react-icons/fa";
+import { SiVercel } from "react-icons/si";
+import { SiRailway } from "react-icons/si";
+import { SiNetlify } from "react-icons/si";
+
 const Hero = () => {
   return (
     <IconContext.Provider value={{ className: "media-icons" }}>
@@ -65,6 +71,35 @@ const Hero = () => {
                     <SiPostgresql
                       className="skill-icons"
                       style={{ color: "teal" }}
+                    />
+                  </IconContext.Provider>
+                </div>
+              </div>
+            </section>
+            <section className="skills-section">
+              <div className="skills-cnt">
+                <h3 className="skills-text">Additional Technologies</h3>
+                <div className="skill-items-cnt">
+                  <IconContext.Provider value={{ className: "skill-items" }}>
+                    <TbBrandNextjs
+                      className="skill-icons"
+                      style={{ color: "#000000 ", fontSize: "2rem" }}
+                    />
+                    <FaCcStripe
+                      className="skill-icons"
+                      style={{ color: "#2736C2 ", fontSize: "2rem" }}
+                    />
+                    <SiVercel
+                      className="skill-icons"
+                      style={{ color: "#000000 ", fontSize: "2rem" }}
+                    />
+                    <SiRailway
+                      className="skill-icons"
+                      style={{ color: "#000000 ", fontSize: "2rem" }}
+                    />
+                    <SiNetlify
+                      className="skill-icons"
+                      style={{ color: "#29C4BC ", fontSize: "2rem" }}
                     />
                   </IconContext.Provider>
                 </div>
